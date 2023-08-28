@@ -26,5 +26,9 @@ class WelcomeController {
 	public String welcome() {
 		return "welcome";
 	}
+	@GetMapping("/UIUX")
+	public String welcome() {
+		return "UIUX IS DONE";
+	}
 
 }
