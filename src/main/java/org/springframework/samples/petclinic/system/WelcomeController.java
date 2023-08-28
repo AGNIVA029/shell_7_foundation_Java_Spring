@@ -30,5 +30,8 @@ class WelcomeController {
 	public String welcome() {
 		return "UIUX IS DONE";
 	}
-
+@GetMapping("/CICD")
+	public String welcome() {
+		return "CICD IS DONE";
+	}
 }
